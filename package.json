@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshanson7/react-native-swipeable.git"
+    "url": "git+https://github.com/MillerMedia/react-native-swipeable.git"
   },
   "keywords": [
     "react",
