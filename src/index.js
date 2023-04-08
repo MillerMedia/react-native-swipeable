@@ -146,7 +146,7 @@ export default class Swipeable extends PureComponent {
       toValue: {x: 0, y: 0},
       duration: 250,
       easing: Easing.elastic(0.5),
-      useNativeDriver: false
+      useNativeDriver: true
     },
 
     // misc
@@ -534,6 +534,7 @@ export default class Swipeable extends PureComponent {
           x: leftButtons.length * leftButtonWidth,
           y: 0
         },
+        useNativeDriver: true,
         ...leftButtonsOpenReleaseAnimationConfig
       };
     }
@@ -545,6 +546,7 @@ export default class Swipeable extends PureComponent {
           x: rightButtons.length * rightButtonWidth * -1,
           y: 0
         },
+        useNativeDriver: true,
         ...rightButtonsOpenReleaseAnimationConfig
       };
     }
